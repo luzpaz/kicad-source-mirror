@@ -196,13 +196,13 @@ public:
     /**
      * Set the default language without reference to any preferences.  Can be used to set
      * the language for dialogs that show before preferences are loaded
-     * @param aErrMsg String to return the error messsage(s) in
+     * @param aErrMsg String to return the error message(s) in
      * @return false if the language could not be set
      */
     bool SetDefaultLanguage( wxString& aErrMsg );
 
     /**
-     * Set in .m_language_id member the wxWidgets language identifier ID fromthe KiCad
+     * Set in .m_language_id member the wxWidgets language identifier ID from the KiCad
      * menu id (internal menu identifier).
      *
      * @param menu_id The KiCad menuitem id (returned by Menu Event, when clicking on a
@@ -327,7 +327,7 @@ protected:
     /// true to use the selected PDF browser, if exists, or false to use the default
     bool            m_use_system_pdf_browser;
 
-    /// The file name of the the program selected for browsing pdf files.
+    /// The file name of the program selected for browsing pdf files.
     wxString        m_pdf_browser;
     wxString        m_editor_name;
     wxSize          m_help_size;
