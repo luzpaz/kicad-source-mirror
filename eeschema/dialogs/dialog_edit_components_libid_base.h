@@ -45,7 +45,7 @@ class DIALOG_EDIT_COMPONENTS_LIBID_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onCellBrowseLib( wxGridEvent& event ) { event.Skip(); }
 		virtual void OnSizeGrid( wxSizeEvent& event ) { event.Skip(); }
 		virtual void onClickOrphansButton( wxCommandEvent& event ) { event.Skip(); }

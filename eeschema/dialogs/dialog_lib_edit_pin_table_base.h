@@ -54,7 +54,7 @@ class DIALOG_LIB_EDIT_PIN_TABLE_BASE : public DIALOG_SHIM
 		wxButton* m_ButtonsOK;
 		wxButton* m_ButtonsCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnClose( wxCloseEvent& event ) = 0;
 		virtual void OnUpdateUI( wxUpdateUIEvent& event ) = 0;
 		virtual void OnCellEdited( wxGridEvent& event ) = 0;

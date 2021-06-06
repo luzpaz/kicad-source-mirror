@@ -63,7 +63,7 @@ class DIALOG_BOM_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerCancel;
 		wxButton* m_sdbSizerHelp;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnIdle( wxIdleEvent& event ) { event.Skip(); }
 		virtual void OnGeneratorSelected( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnNameEdited( wxCommandEvent& event ) { event.Skip(); }

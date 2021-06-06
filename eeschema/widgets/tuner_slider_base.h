@@ -44,7 +44,7 @@ class TUNER_SLIDER_BASE : public wxPanel
 		wxTextCtrl* m_minText;
 		wxButton* m_saveBtn;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onClose( wxCommandEvent& event ) { event.Skip(); }
 		virtual void onSliderChanged( wxScrollEvent& event ) { event.Skip(); }
 		virtual void onMaxTextEnter( wxCommandEvent& event ) { event.Skip(); }

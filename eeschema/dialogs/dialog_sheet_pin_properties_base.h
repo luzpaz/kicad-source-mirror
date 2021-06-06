@@ -51,7 +51,7 @@ class DIALOG_SHEET_PIN_PROPERTIES_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onComboBox( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnSyntaxHelp( wxHyperlinkEvent& event ) { event.Skip(); }
 		virtual void onOKButton( wxCommandEvent& event ) { event.Skip(); }

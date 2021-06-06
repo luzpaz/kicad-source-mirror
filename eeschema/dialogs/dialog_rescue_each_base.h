@@ -54,7 +54,7 @@ class DIALOG_RESCUE_EACH_BASE : public DIALOG_SHIM
 		wxButton* m_stdButtonsOK;
 		wxButton* m_stdButtonsCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnDialogResize( wxSizeEvent& event ) { event.Skip(); }
 		virtual void OnConflictSelect( wxDataViewEvent& event ) { event.Skip(); }
 		virtual void OnNeverShowClick( wxCommandEvent& event ) { event.Skip(); }

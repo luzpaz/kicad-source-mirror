@@ -70,7 +70,7 @@ class DIALOG_LIB_EDIT_TEXT_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerButtonsOK;
 		wxButton* m_sdbSizerButtonsCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnCloseDialog( wxCloseEvent& event ) { event.Skip(); }
 		virtual void OnSetFocusText( wxFocusEvent& event ) { event.Skip(); }
 		virtual void OnTextValueSelectButtonClick( wxCommandEvent& event ) { event.Skip(); }

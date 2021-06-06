@@ -44,7 +44,7 @@ class PANEL_EESCHEMA_TEMPLATE_FIELDNAMES_BASE : public wxPanel
 		wxBitmapButton* m_addFieldButton;
 		wxBitmapButton* m_deleteFieldButton;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnSizeGrid( wxSizeEvent& event ) { event.Skip(); }
 		virtual void OnAddButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnDeleteButtonClick( wxCommandEvent& event ) { event.Skip(); }

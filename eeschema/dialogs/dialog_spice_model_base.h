@@ -239,7 +239,7 @@ class DIALOG_SPICE_MODEL_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onInitDlg( wxInitDialogEvent& event ) { event.Skip(); }
 		virtual void onSelectLibrary( wxCommandEvent& event ) { event.Skip(); }
 		virtual void onModelSelected( wxCommandEvent& event ) { event.Skip(); }

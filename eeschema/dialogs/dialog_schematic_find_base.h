@@ -58,7 +58,7 @@ class DIALOG_SCH_FIND_BASE : public DIALOG_SHIM
 		wxButton* m_buttonReplaceAll;
 		wxButton* m_buttonCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnClose( wxCloseEvent& event ) { event.Skip(); }
 		virtual void OnIdle( wxIdleEvent& event ) { event.Skip(); }
 		virtual void OnSearchForSelect( wxCommandEvent& event ) { event.Skip(); }

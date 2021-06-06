@@ -91,7 +91,7 @@ class SIM_PLOT_FRAME_BASE : public KIWAY_PLAYER
 		wxStaticText* m_staticTextTune;
 		wxBoxSizer* m_tuneSizer;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void menuNewPlot( wxCommandEvent& event ) { event.Skip(); }
 		virtual void menuOpenWorkbook( wxCommandEvent& event ) { event.Skip(); }
 		virtual void menuSaveWorkbook( wxCommandEvent& event ) { event.Skip(); }

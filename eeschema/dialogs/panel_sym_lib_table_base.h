@@ -52,7 +52,7 @@ class PANEL_SYM_LIB_TABLE_BASE : public wxPanel
 		wxButton* m_convertLegacy;
 		WX_GRID* m_path_subs_grid;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnUpdateUI( wxUpdateUIEvent& event ) { event.Skip(); }
 		virtual void appendRowHandler( wxCommandEvent& event ) { event.Skip(); }
 		virtual void browseLibrariesHandler( wxCommandEvent& event ) { event.Skip(); }

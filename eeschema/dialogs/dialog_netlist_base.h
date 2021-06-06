@@ -56,7 +56,7 @@ class NETLIST_DIALOG_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizer2OK;
 		wxButton* m_sdbSizer2Cancel;
 		
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnNetlistTypeSelection( wxNotebookEvent& event ) { event.Skip(); }
 		virtual void OnAddGenerator( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnDelGenerator( wxCommandEvent& event ) { event.Skip(); }
@@ -98,7 +98,7 @@ class NETLIST_DIALOG_ADD_GENERATOR_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 		
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnBrowseGenerators( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnCancelClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnOKClick( wxCommandEvent& event ) { event.Skip(); }

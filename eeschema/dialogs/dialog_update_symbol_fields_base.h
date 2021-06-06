@@ -57,7 +57,7 @@ class DIALOG_UPDATE_SYMBOL_FIELDS_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onSelectAll( wxCommandEvent& event ) { event.Skip(); }
 		virtual void onSelectNone( wxCommandEvent& event ) { event.Skip(); }
 		virtual void onOkButtonClicked( wxCommandEvent& event ) { event.Skip(); }

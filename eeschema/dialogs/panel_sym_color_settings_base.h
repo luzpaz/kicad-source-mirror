@@ -42,7 +42,7 @@ class PANEL_SYM_COLOR_SETTINGS_BASE : public wxPanel
 		wxStaticText* m_txtTheme;
 		wxChoice* m_themeSelection;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnUseEeschemaThemeChanged( wxCommandEvent& event ) { event.Skip(); }
 
 
