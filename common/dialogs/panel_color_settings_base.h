@@ -47,7 +47,7 @@ class PANEL_COLOR_SETTINGS_BASE : public RESETTABLE_PANEL
 		wxScrolledWindow* m_colorsListWindow;
 		wxFlexGridSizer* m_colorsGridSizer;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnSize( wxSizeEvent& event ) { event.Skip(); }
 		virtual void OnThemeChanged( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnLeftDownTheme( wxMouseEvent& event ) { event.Skip(); }

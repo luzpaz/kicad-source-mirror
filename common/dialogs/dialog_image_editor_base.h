@@ -43,7 +43,7 @@ class DIALOG_IMAGE_EDITOR_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 		
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnRedrawPanel( wxPaintEvent& event ) { event.Skip(); }
 		virtual void OnGreyScaleConvert( wxCommandEvent& event ) { event.Skip(); }
 		

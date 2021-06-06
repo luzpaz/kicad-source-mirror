@@ -602,7 +602,7 @@ void GERBER_PLOTTER::writeApertureList()
            exponential syntax is *not* allowed and the decimal point should
            also be always inserted. So the %g format is ruled out, but %f is fine
            (the # modifier forces the decimal point). Sadly the %f formatter
-           can't remove trailing zeros but thats not a problem, since nothing
+           can't remove trailing zeros but that's not a problem, since nothing
            forbid it (the file is only slightly longer) */
 
         switch( tool.m_Type )

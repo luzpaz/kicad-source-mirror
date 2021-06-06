@@ -45,7 +45,7 @@ class DIALOG_ABOUT_BASE : public wxDialog
 		wxNotebook* m_notebook;
 		wxButton* m_btOk;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onCopyVersionInfo( wxCommandEvent& event ) { event.Skip(); }
 		virtual void onReportBug( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnNotebookPageChanged( wxNotebookEvent& event ) { event.Skip(); }
