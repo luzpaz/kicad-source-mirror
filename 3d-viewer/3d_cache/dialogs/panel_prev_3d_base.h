@@ -76,7 +76,7 @@ class PANEL_PREV_3D_BASE : public wxPanel
 		wxBitmapButton* m_bpvBottom;
 		wxBitmapButton* m_bpUpdate;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onMouseWheelScale( wxMouseEvent& event ) { event.Skip(); }
 		virtual void updateOrientation( wxCommandEvent& event ) { event.Skip(); }
 		virtual void onDecrementScale( wxSpinEvent& event ) { event.Skip(); }

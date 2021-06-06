@@ -149,7 +149,7 @@ class DIALOG_3D_VIEW_OPTIONS_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnCheckRealisticMode( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnCheckEnableAnimation( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnLightsResetToDefaults( wxCommandEvent& event ) { event.Skip(); }
