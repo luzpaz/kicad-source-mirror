@@ -38,7 +38,7 @@ class DIALOG_INSPECTOR_BASE : public DIALOG_SHIM
 		wxStdDialogButtonSizer* m_sdbSizer;
 		wxButton* m_sdbSizerCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onCellClicked( wxGridEvent& event ) { event.Skip(); }
 
 

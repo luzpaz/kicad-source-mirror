@@ -172,7 +172,7 @@ public:
      * Call default handler for some special keys,
      * and for "ascii" keys, select the first footprint
      * that the name starts by the letter.
-     * This is the defaut behaviour of a listbox, but because we use
+     * This is the default behaviour of a listbox, but because we use
      * virtual lists, the listbox does not know anything to what is displayed,
      * we must handle this behaviour here.
      * Furthermore the footprint name is not at the beginning of

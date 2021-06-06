@@ -53,7 +53,7 @@ class PL_EDITOR_FRAME : public EDA_DRAW_FRAME
     wxChoice*   m_originSelectBox;      // Corner origin choice for coordinates
     int         m_originSelectChoice;   // the last choice for m_originSelectBox
     wxChoice*   m_pageSelectBox;        // The page number sel'ector (page 1 or other pages
-                                        // usefull when there are some items which are
+                                        // useful when there are some items which are
                                         // only on page 1, not on page 1
     wxPoint     m_grid_origin;
 
@@ -113,7 +113,7 @@ public:
     bool canCloseWindow( wxCloseEvent& aCloseEvent ) override;
     void doCloseWindow() override;
 
-    // The Tool Framework initalization
+    // The Tool Framework initialization
     void setupTools();
 
     // Virtual basic functions:
@@ -223,7 +223,7 @@ public:
 
     /**
      * @return the filename of the current layout descr file
-     * If this is the default (no loaded file) returns a emtpy name
+     * If this is the default (no loaded file) returns a empty name
      * or a new design.
      */
     wxString GetCurrentFileName() const override;

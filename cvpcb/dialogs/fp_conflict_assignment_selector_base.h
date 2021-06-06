@@ -40,7 +40,7 @@ class DIALOG_FP_CONFLICT_ASSIGNMENT_SELECTOR_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 		
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnSize( wxSizeEvent& event ) { event.Skip(); }
 		virtual void OnItemClicked( wxMouseEvent& event ) { event.Skip(); }
 		virtual void OnColumnClick( wxListEvent& event ) { event.Skip(); }

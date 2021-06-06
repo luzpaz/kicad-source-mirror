@@ -58,7 +58,7 @@ class DIALOG_FP_CONFLICT_ASSIGNMENT_SELECTOR : public DIALOG_FP_CONFLICT_ASSIGNM
          *      0 for fpid text from the netlist
          *      1 for fpid text from the cmp file
          *      -1 on error
-         * @param aReference = the compoent schematic reference
+         * @param aReference = the component schematic reference
          */
         int GetSelection( const wxString& aReference );
 

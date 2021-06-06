@@ -155,7 +155,7 @@ public:
     /**
      * Find out which control currently has focus.
      *
-     * @return the contorl that currently has focus
+     * @return the control that currently has focus
      */
     CVPCB_MAINFRAME::CONTROL_TYPE GetFocusedControl() const;
 
@@ -169,7 +169,7 @@ public:
     /**
      * Set the focus to a specific control.
      *
-     * @param aControl the contorl to set focus to
+     * @param aControl the control to set focus to
      */
     void SetFocusedControl( CVPCB_MAINFRAME::CONTROL_TYPE aControl );
 

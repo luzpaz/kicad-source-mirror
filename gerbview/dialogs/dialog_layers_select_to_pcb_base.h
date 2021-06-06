@@ -68,7 +68,7 @@ class LAYERS_MAP_DIALOG_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerButtonsOK;
 		wxButton* m_sdbSizerButtonsCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnBrdLayersCountSelection( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnStoreSetup( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnGetSetup( wxCommandEvent& event ) { event.Skip(); }
