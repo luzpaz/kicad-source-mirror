@@ -55,7 +55,7 @@ class DIALOG_FOOTPRINT_CHECKER_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnClose( wxCloseEvent& event ) { event.Skip(); }
 		virtual void OnSelectItem( wxDataViewEvent& event ) { event.Skip(); }
 		virtual void OnLeftDClickItem( wxMouseEvent& event ) { event.Skip(); }

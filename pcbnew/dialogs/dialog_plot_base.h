@@ -133,7 +133,7 @@ class DIALOG_PLOT_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizer1Cancel;
 		wxMenu* m_popMenu;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnInitDialog( wxInitDialogEvent& event ) { event.Skip(); }
 		virtual void OnRightClick( wxMouseEvent& event ) { event.Skip(); }
 		virtual void SetPlotFormat( wxCommandEvent& event ) { event.Skip(); }

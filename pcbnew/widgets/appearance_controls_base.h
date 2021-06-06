@@ -67,7 +67,7 @@ class APPEARANCE_CONTROLS_BASE : public wxPanel
 		wxStaticText* presetsHotkey;
 		wxChoice* m_cbLayerPresets;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnSetFocus( wxFocusEvent& event ) { event.Skip(); }
 		virtual void OnSize( wxSizeEvent& event ) { event.Skip(); }
 		virtual void OnNotebookPageChanged( wxNotebookEvent& event ) { event.Skip(); }

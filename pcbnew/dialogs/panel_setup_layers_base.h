@@ -351,7 +351,7 @@ class PANEL_SETUP_LAYERS_BASE : public wxPanel
 		wxTextCtrl* m_User9Name;
 		wxStaticText* m_User9StaticText;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void addUserDefinedLayer( wxCommandEvent& event ) { event.Skip(); }
 		virtual void onUpdateAddUserDefinedLayer( wxUpdateUIEvent& event ) { event.Skip(); }
 		virtual void DenyChangeCheckBox( wxCommandEvent& event ) { event.Skip(); }

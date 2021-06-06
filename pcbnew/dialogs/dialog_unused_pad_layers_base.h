@@ -49,7 +49,7 @@ class DIALOG_UNUSED_PAD_LAYERS_BASE : public DIALOG_SHIM
 		wxButton* m_StdButtonsOK;
 		wxButton* m_StdButtonsCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void syncImages( wxCommandEvent& event ) { event.Skip(); }
 
 

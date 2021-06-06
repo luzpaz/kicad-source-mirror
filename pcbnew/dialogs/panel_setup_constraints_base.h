@@ -121,7 +121,7 @@ class PANEL_SETUP_CONSTRAINTS_BASE : public wxPanel
 		wxTextCtrl* m_silkClearanceCtrl;
 		wxStaticText* m_silkClearanceUnits;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onChangeOutlineOpt( wxCommandEvent& event ) { event.Skip(); }
 
 

@@ -47,7 +47,7 @@ public:
     /**
      * Create a functor that tests if there are items in the board
      *
-     * @return Functor returning true if the the current board has items
+     * @return Functor returning true if the current board has items
      */
     SELECTION_CONDITION HasItems();
 

@@ -53,7 +53,7 @@ class PANEL_FP_LIB_TABLE_BASE : public wxPanel
 		wxBitmapButton* m_delete_button;
 		WX_GRID* m_path_subs_grid;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnUpdateUI( wxUpdateUIEvent& event ) { event.Skip(); }
 		virtual void appendRowHandler( wxCommandEvent& event ) { event.Skip(); }
 		virtual void moveUpHandler( wxCommandEvent& event ) { event.Skip(); }

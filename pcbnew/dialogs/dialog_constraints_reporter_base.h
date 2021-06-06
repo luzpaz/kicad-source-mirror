@@ -36,7 +36,7 @@ class DIALOG_CONSTRAINTS_REPORTER_BASE : public DIALOG_SHIM
 		wxStdDialogButtonSizer* m_sdbSizer;
 		wxButton* m_sdbSizerOK;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnOK( wxCommandEvent& event ) { event.Skip(); }
 
 

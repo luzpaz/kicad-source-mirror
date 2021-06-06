@@ -54,7 +54,7 @@ class DIALOG_BOARD_STATISTICS_BASE : public DIALOG_SHIM
 		wxStdDialogButtonSizer* m_sdbControlSizer;
 		wxButton* m_sdbControlSizerCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void windowSize( wxSizeEvent& event ) { event.Skip(); }
 		virtual void checkboxClicked( wxCommandEvent& event ) { event.Skip(); }
 		virtual void drillGridSize( wxSizeEvent& event ) { event.Skip(); }

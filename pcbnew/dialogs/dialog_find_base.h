@@ -55,7 +55,7 @@ class DIALOG_FIND_BASE : public DIALOG_SHIM
 		wxButton* m_closeButton;
 		wxStaticText* m_status;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onTextEnter( wxCommandEvent& event ) { event.Skip(); }
 		virtual void onFindNextClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void onFindPreviousClick( wxCommandEvent& event ) { event.Skip(); }

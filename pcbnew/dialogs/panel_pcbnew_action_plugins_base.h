@@ -43,7 +43,7 @@ class PANEL_PCBNEW_ACTION_PLUGINS_BASE : public wxPanel
 		wxBitmapButton* m_reloadButton;
 		wxBitmapButton* m_showErrorsButton;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnGridCellClick( wxGridEvent& event ) { event.Skip(); }
 		virtual void OnMoveUpButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnMoveDownButtonClick( wxCommandEvent& event ) { event.Skip(); }

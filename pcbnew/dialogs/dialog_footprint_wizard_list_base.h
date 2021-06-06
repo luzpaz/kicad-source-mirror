@@ -54,7 +54,7 @@ class DIALOG_FOOTPRINT_WIZARD_LIST_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 		
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnCellFpGeneratorClick( wxGridEvent& event ) { event.Skip(); }
 		virtual void OnCellFpGeneratorDoubleClick( wxGridEvent& event ) { event.Skip(); }
 		virtual void onShowTrace( wxCommandEvent& event ) { event.Skip(); }

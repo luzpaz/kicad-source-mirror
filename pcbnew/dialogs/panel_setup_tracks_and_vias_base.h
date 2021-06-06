@@ -49,7 +49,7 @@ class PANEL_SETUP_TRACKS_AND_VIAS_BASE : public wxPanel
 		wxBitmapButton* m_diffPairsAddButton;
 		wxBitmapButton* m_diffPairsRemoveButton;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnAddTrackWidthsClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnRemoveTrackWidthsClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnAddViaSizesClick( wxCommandEvent& event ) { event.Skip(); }

@@ -49,7 +49,7 @@ class PANEL_SETUP_RULES_BASE : public wxPanel
 		wxBitmapButton* m_compileButton;
 		WX_HTML_REPORT_BOX* m_errorsReport;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnSyntaxHelp( wxHyperlinkEvent& event ) { event.Skip(); }
 		virtual void OnCompile( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnErrorLinkClicked( wxHtmlLinkEvent& event ) { event.Skip(); }

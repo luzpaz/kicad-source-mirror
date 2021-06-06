@@ -45,7 +45,7 @@ class PANEL_FP_EDITOR_DEFAULTS_BASE : public wxPanel
 		wxStaticText* m_staticTextInfo;
 		WX_GRID* m_graphicsGrid;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnGridSize( wxSizeEvent& event ) { event.Skip(); }
 		virtual void OnAddTextItem( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnDeleteTextItem( wxCommandEvent& event ) { event.Skip(); }

@@ -59,7 +59,7 @@ class DIALOG_MOVE_EXACT_BASE : public DIALOG_SHIM
 		wxButton* m_stdButtonsOK;
 		wxButton* m_stdButtonsCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnTextFocusLost( wxFocusEvent& event ) { event.Skip(); }
 		virtual void OnTextChanged( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnClear( wxCommandEvent& event ) { event.Skip(); }

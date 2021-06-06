@@ -50,7 +50,7 @@ class DIALOG_GROUP_PROPERTIES_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onClose( wxCloseEvent& event ) { event.Skip(); }
 		virtual void OnMemberSelected( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnAddMember( wxCommandEvent& event ) { event.Skip(); }

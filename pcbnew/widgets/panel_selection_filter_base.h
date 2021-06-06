@@ -43,7 +43,7 @@ class PANEL_SELECTION_FILTER_BASE : public wxPanel
 		wxCheckBox* m_cbDimensions;
 		wxCheckBox* m_cbOtherItems;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnUpdateUI( wxUpdateUIEvent& event ) { event.Skip(); }
 		virtual void OnFilterChanged( wxCommandEvent& event ) { event.Skip(); }
 

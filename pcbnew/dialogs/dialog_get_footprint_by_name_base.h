@@ -46,7 +46,7 @@ class DIALOG_GET_FOOTPRINT_BY_NAME_BASE : public DIALOG_SHIM
 		wxButton* m_sdbSizerOK;
 		wxButton* m_sdbSizerCancel;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void onClose( wxCloseEvent& event ) { event.Skip(); }
 		virtual void OnSelectFootprint( wxCommandEvent& event ) { event.Skip(); }
 
