@@ -89,7 +89,7 @@ public:
 };
 
 
-// A class to handle the list of availlable transm. lines
+// A class to handle the list of available transm. lines
 // with messages, tooptips ...
 class TRANSLINE_IDENT
 {

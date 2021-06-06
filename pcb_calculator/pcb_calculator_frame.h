@@ -265,7 +265,7 @@ private:
 
     /**
      * Function TransfDlgDataToTranslineParams
-     * Read values entered in dialog frame, and transfert these values in current transline
+     * Read values entered in dialog frame, and transfer these values in current transline
      * parameters, converted in normalized units
      */
     void TransfDlgDataToTranslineParams();
@@ -364,7 +364,7 @@ public:
     }
 
 private:
-    bool m_RegulatorListChanged; // Set when m_RegulatorList is modified and the corresponging file
+    bool m_RegulatorListChanged; // Set when m_RegulatorList is modified and the corresponding file
                                  // must be rewritten
 
     enum                         // Which dimension is controlling the track width / current

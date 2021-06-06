@@ -378,7 +378,7 @@ class PCB_CALCULATOR_FRAME_BASE : public KIWAY_PLAYER
 		wxGrid* m_gridClassesValuesDisplay;
 		wxPanel* m_panelShowClassPrms;
 
-		// Virtual event handlers, overide them in your derived class
+		// Virtual event handlers, override them in your derived class
 		virtual void OnClosePcbCalc( wxCloseEvent& event ) { event.Skip(); }
 		virtual void OnUpdateUI( wxUpdateUIEvent& event ) { event.Skip(); }
 		virtual void OnRegulTypeSelection( wxCommandEvent& event ) { event.Skip(); }

@@ -35,7 +35,7 @@ public:
     double           m_Zout;                // Impedance of load
     double           m_Attenuation;         // Attenuation in dB
     bool             m_Attenuation_Enable;  // Set to true when Attenuatiopn has meaning
-    double           m_MinimumATT;          // Minimun attenuation in dB from parameters
+    double           m_MinimumATT;          // Minimum attenuation in dB from parameters
     double           m_R1;                  // value of R1
     double           m_R2;                  // value of R2
     double           m_R3;                  // value of R3 (if any)
